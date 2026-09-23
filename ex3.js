@@ -4,8 +4,9 @@
 let tasks = ["Work", "Shopping", "Meeting"];
 
 
-// add a task to the list
+// Function to add a new task to the list
 let addTask = (task) =>{
+    // Add the task to the end of the list
     tasks.push(task);
     console.log("Task " + task + " has been added to the list")
     return tasks.length;
